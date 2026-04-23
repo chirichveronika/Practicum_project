@@ -15,6 +15,7 @@
 Python (pandas, numpy, matplotlib, seaborn, scipy)
 SQL
 Jupyter Notebook
+Datalens
 
 ## Как посмотреть проект
 
@@ -23,6 +24,9 @@ https://github.com/chirichveronika/Practicum_project/blob/master/final_project_g
 
 **SQL-анализ (проверка структуры и качества данных):**  
 https://github.com/chirichveronika/Practicum_project/blob/master/Script-5.sql
+
+**Интерактивный дашборд в Yandex DataLens:**
+https://datalens.yandex/42bduq7wagy4o
 
 В проекте используются три датасета:
 
