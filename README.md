@@ -26,43 +26,43 @@ https://github.com/chirichveronika/Practicum_project/blob/master/Script-5.sql
 
 В проекте используются три датасета:
 
-1. Заказы (final_tickets_orders_df.csv)
-Содержит информацию о покупках билетов:
+1. Заказы (final_tickets_orders_df.csv)  
+Содержит информацию о покупках билетов:  
 
-  `order_id` — уникальный идентификатор заказа
-  `user_id` — идентификатор пользователя
-  `created_dt_msk`, `created_ts_msk` — дата и время заказа
-  `event_id` — идентификатор события
-  `cinema_circuit` — сеть кинотеатров
-  `age_limit` — возрастное ограничение
-  `currency_code` — валюта оплаты
-  `device_type_canonical` — тип устройства (mobile / desktop)
-  `revenue` — выручка
-  `service_name` — оператор продаж
-  `tickets_count` — количество билетов
-  `total` — сумма заказа
-  `days_since_prev` — дни с предыдущей покупки
+  `order_id` — уникальный идентификатор заказа  
+  `user_id` — идентификатор пользователя  
+  `created_dt_msk`, `created_ts_msk` — дата и время заказа  
+  `event_id` — идентификатор события  
+  `cinema_circuit` — сеть кинотеатров  
+  `age_limit` — возрастное ограничение  
+  `currency_code` — валюта оплаты  
+  `device_type_canonical` — тип устройства (mobile / desktop)  
+  `revenue` — выручка  
+  `service_name` — оператор продаж  
+  `tickets_count` — количество билетов  
+  `total` — сумма заказа  
+  `days_since_prev` — дни с предыдущей покупки  
   
-2. События (final_tickets_events_df.csv)
-Информация о мероприятиях:
+2. События (final_tickets_events_df.csv)  
+Информация о мероприятиях:  
 
-  `event_id` — уникальный идентификатор мероприятия.
-  `event_name` — название мероприятия. Аналог поля event_name_code из исходной базы данных.
-  `event_type_description` — описание типа мероприятия.
-  `event_type_main` — основной тип мероприятия: театральная постановка, концерт и так далее.
-  `organizers` — организаторы мероприятия.
-  `region_name` — название региона.
-  `city_name` — название города.
-  `venue_id` — уникальный идентификатор площадки.
-  `venue_name` — название площадки.
-  `venue_address` — адрес площадки.
+  `event_id` — уникальный идентификатор мероприятия.  
+  `event_name` — название мероприятия. Аналог поля event_name_code из исходной базы данных.  
+  `event_type_description` — описание типа мероприятия.  
+  `event_type_main` — основной тип мероприятия: театральная постановка, концерт и так далее.  
+  `organizers` — организаторы мероприятия.  
+  `region_name` — название региона.  
+  `city_name` — название города.  
+  `venue_id` — уникальный идентификатор площадки.  
+  `venue_name` — название площадки.  
+  `venue_address` — адрес площадки.  
   
-3. Курсы валют (final_tickets_tenge_df.csv)
-Используется для пересчёта валют:
+3. Курсы валют (final_tickets_tenge_df.csv)  
+Используется для пересчёта валют:  
 
-  `data` — дата
-  `nominal`, `curs` — курс
-  `cdx` — код валюты
+  `data` — дата  
+  `nominal`, `curs` — курс  
+  `cdx` — код валюты  
   
 ## SQL-анализ данных
 
